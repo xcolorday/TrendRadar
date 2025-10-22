@@ -5,8 +5,9 @@ shein
 ai
 AIGC
 AI绘画
-大模型
 !gai
+!iPhoneAir
+大模型
 人工智能
 
 免费
@@ -16,6 +17,10 @@ AI绘画
 推荐
 
 DeepSeek
+
+Qwen
+千问
+通义
 
 谷歌
 google
@@ -29,9 +34,7 @@ sora
 claude
 Anthropic
 
-Qwen
-千问
-通义
+开源
 
 国产
 中国
@@ -51,9 +54,4 @@ NVIDIA
 
 AMD
 
-科技
-
 新质生产力
-
-CPU
-GPU
