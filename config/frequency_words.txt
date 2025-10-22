@@ -6,7 +6,9 @@ ai
 AIGC
 AI绘画
 !gai
-!iPhoneAir
+!Air
+!ain
+!aid
 大模型
 人工智能
 
