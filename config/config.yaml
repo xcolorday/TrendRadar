@@ -140,7 +140,7 @@ platforms:
   - id: "chongbuluo"
     name: "虫部落"
   - id: "LinuxDo"
-    name: "LinuxDo"        # 失败原因：接口可能已变更
+    name: "LinuxDo"
 
   # ======================================================
   # 暂时失败的渠道（可能需要修复或接口已变更）
