@@ -150,10 +150,14 @@
 [GLOBAL_FILTER]
 
 [WORD_GROUPS]
+
 [福利]
 免费
 福利
 限免
+
+[开源]
+开源
 
 [AI]
 人工智能
