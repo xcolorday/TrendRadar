@@ -66,32 +66,32 @@ platforms:
     name: "凤凰网"
   - id: "cankaoxiaoxi"
     name: "参考消息"
-  - id: "sputniknewscn"
-    name: "卫星通讯社"
-  - id: "zaobao"
-    name: "联合早报"
-  - id: "mktnews"
-    name: "MKT新闻"
-  - id: "kaopu"
-    name: "靠谱新闻"
+#  - id: "sputniknewscn"
+#    name: "卫星通讯社"
+#  - id: "zaobao"
+#    name: "联合早报"
+#  - id: "mktnews"
+#    name: "MKT新闻"
+#  - id: "kaopu"
+#    name: "靠谱新闻"
 
   # === 财经投资类 ===
   - id: "wallstreetcn-hot"
     name: "华尔街见闻 最热"
-  - id: "wallstreetcn-quick"
-    name: "华尔街见闻 快讯"
-  - id: "wallstreetcn-news"
-    name: "华尔街见闻 最新"
+#  - id: "wallstreetcn-quick"
+#    name: "华尔街见闻 快讯"
+#  - id: "wallstreetcn-news"
+#    name: "华尔街见闻 最新"
   - id: "cls-hot"
     name: "财联社热门"
-  - id: "gelonghui"
-    name: "格隆汇"
+#  - id: "gelonghui"
+#    name: "格隆汇"
   - id: "xueqiu"
     name: "雪球"
-  - id: "jin10"
-    name: "金十数据"
-  - id: "fastbull"
-    name: "快讯通"
+#  - id: "jin10"
+#    name: "金十数据"
+#  - id: "fastbull"
+#    name: "快讯通"
 
   # === 社交/短视频/娱乐类 ===
   - id: "weibo"
@@ -122,16 +122,16 @@ platforms:
     name: "IT之家"
   - id: "juejin"
     name: "掘金"
-  - id: "hackernews"
-    name: "Hacker News"
+# - id: "hackernews"
+#    name: "Hacker News"
   - id: "solidot"
     name: "Solidot"
   - id: "v2ex"
     name: "V2EX"
   - id: "nowcoder"
     name: "牛客网"
-  - id: "producthunt"
-    name: "ProductHunt"
+#  - id: "producthunt"
+#    name: "ProductHunt"
   - id: "freebuf"
     name: "Freebuf 网络安全"
 
@@ -140,12 +140,12 @@ platforms:
     name: "虫部落"
   - id: "tencent-hot"
     name: "腾讯新闻 综合早报"   
-  - id: "cls-telegraph"
-    name: "财联社 电报"    
+#  - id: "cls-telegraph"
+#    name: "财联社 电报"    
   - id: "cls-depth"
     name: "财联社 深度"    
-  - id: "fastbull-express"
-    name: "法布财经 快讯"   
+#  - id: "fastbull-express"
+#    name: "法布财经 快讯"   
   - id: "fastbull-news"
     name: "法布财经 头条"
 
@@ -365,9 +365,9 @@ display:
     standalone: true # 独立展示区（完整热榜/RSS，不受关键词过滤）
     ai_analysis: false # AI 分析区域
   standalone:
-    platforms: ["zhihu","tieba"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
+    platforms: [] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
     rss_feeds: ["ruanyifeng"] # RSS 源 ID 列表（如 ["hacker-news"]）
-    max_items: 20                     # 每个源最多展示条数（0=不限制）
+    max_items: 0                     # 每个源最多展示条数（0=不限制）
 
 
 # ===============================================================
@@ -665,8 +665,8 @@ advanced:
   # 合起来等于 1
   weight:
     rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
-    hotness: 0.1                      # 热度权重
+    frequency: 0.2                    # 频次权重
+    hotness: 0.2                      # 热度权重
 
   # 多账号限制
   max_accounts_per_channel: 3         # 每个渠道最大账号数量
