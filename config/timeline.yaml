@@ -165,8 +165,8 @@ presets:
     # 默认配置 ── 不命中任何时间段时的行为
     default:
       collect: true                # 始终采集
-      analyze: true                # AI 分析当前榜单
-      ai_mode: "current"           # AI 分析当前榜单
+      analyze: false                # AI 分析当前榜单
+      ai_mode: "incremental"           # AI 分析当前榜单
       push: true                   # 每次推送当前在榜热点
       report_mode: "current"       # 当前在榜的新闻
       # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
@@ -180,8 +180,8 @@ presets:
     periods:
       evening_summary:
         name: "晚间汇总"
-        start: "20:00"
-        end: "22:00"
+        start: "22:00"
+        end: "23:00"
         # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
         # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
