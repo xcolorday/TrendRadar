@@ -220,6 +220,10 @@ rss:
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
+   
+    - id: "dailydawn"
+      name: "AI 趋势日报"
+      url: "https://dailydawn.dev/zh.json"
 
     - id: "yahoo-finance"
       name: "雅虎财经"
